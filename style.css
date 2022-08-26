@@ -266,13 +266,9 @@ h1:hover {
 
 /* footer */
 .footer {
-  background: var(--black);
+  background: black;
   text-align: center;
  
-}
-
-.footer .share {
-  /* padding: 1rem 0; */
 }
 
 .footer .share a {
@@ -281,14 +277,10 @@ h1:hover {
   line-height: 5rem;
   font-size: 2rem;
   color: #fff;
-  border: var(--border);
   margin: 0.3rem;
   border-radius: 50%;
 }
 
-.footer .share a:hover {
-  background-color: var(--main-color);
-}
 
 .footer .links {
   display: flex;
@@ -301,12 +293,7 @@ h1:hover {
 .footer .links a {
   padding: 0.7rem 2rem;
   color: #fff;
-  border: var(--border);
   font-size: 2rem;
-}
-
-.footer .links a:hover {
-  background: var(--main-color);
 }
 
 .footer .credit {
@@ -316,9 +303,6 @@ h1:hover {
   padding: 1.5rem;
 }
 
-.footer .credit span {
-  color: var(--main-color);
-}
 
 @media (max-width:450px){
   .products img{
