@@ -114,7 +114,7 @@ nav ul li {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin: 40px auto;
 }
 
 .title {
@@ -145,4 +145,10 @@ nav ul li {
 
 .categories {
   padding-top: 30px;
+}
+
+@media (max-width:450px){
+  .products img{
+    width: 200px;
+  }
 }
