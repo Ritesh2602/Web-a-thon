@@ -292,7 +292,7 @@ h1:hover {
 
 .footer .links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 2rem 0;
   gap: 1rem;
@@ -318,4 +318,23 @@ h1:hover {
 
 .footer .credit span {
   color: var(--main-color);
+}
+
+@media (max-width:450px){
+  .products img{
+    width: 200px;
+  }
+ 
+  .testimonials .item{
+
+    min-width: 400px;
+    min-height: 20px;
+    font-size: 20px;
+  }
+
+  .footer{
+    width: 400px;
+    font-size: 20px;
+    margin: 0;
+  }
 }

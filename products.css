@@ -14,6 +14,63 @@ body {
   
 }
 
+.logo img {
+  width: 80px;
+  margin: 10px;
+}
+
+.navbar{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  position:sticky;
+  top: 0;
+  z-index: 2;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+a::after {
+  background-color: aqua;
+  width: 0px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transition: 0.2s;
+  transform: translateX(-50%);
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  /* text-align: center; */
+}
+
+
+
+nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
 .contain {
   margin: 100px auto;
   text-align: center;
